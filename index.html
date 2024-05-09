@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Clock</title>
+</head>
+<body>
+    <section class="punchcard-container" id="punchcard-container">
+        <div class="punchcard-grid" id="punchcard-grid">
+            <div class="grid-item" id="punchcard-head"></div>
+            <div class="grid-item" id="punchcard-head2"></div>
+            <div class="grid-item" id="punchcard-head3"></div>
+            <div class="grid-item" id="punchcard-head4"></div>
+            <div class="grid-item" id="punchcard-head5"></div>
+            <div class="grid-item" id="punchcard-head6"></div>
+            <div class="grid-item" id="punchcard-head7"></div>
+            <div class="grid-item" id="punchcard-head8"></div>
+            <div class="grid-item" id="punchcard-head9"></div>
+            <div class="grid-item" id="punchcard-head10"></div>
+            <div class="grid-item" id="punchcard-head11"></div>
+            <div class="grid-item" id="punchcard-head12"></div>
+            <div class="grid-item" id="punchcard-head13"></div>
+            <div class="grid-item" id="punchcard-head14"></div>
+            <div class="grid-item" id="punchcard-head15"></div>
+            <div class="grid-item" id="punchcard-head16"></div>
+            <div class="grid-item" id="punchcard-head17"></div>
+            <div class="grid-item" id="punchcard-head18"></div>
+            <div class="grid-item" id="punchcard-head19"></div>
+            <div class="grid-item" id="punchcard-head20"></div>
+            <div class="grid-item" id="punchcard-head21"></div>
+            <div class="grid-item" id="punchcard-head22"></div>
+            <div class="grid-item" id="punchcard-head23"></div>
+            <div class="grid-item" id="punchcard-head24"></div>
+            <div class="grid-item" id="punchcard-head25"></div>
+            <div class="grid-item" id="punchcard-head26"></div>
+            <div class="grid-item" id="punchcard-head27"></div>
+            <div class="grid-item" id="punchcard-head28"></div>
+            <div class="grid-item" id="punchcard-head29"></div>
+            <div class="grid-item" id="punchcard-head30"></div>
+            <div class="grid-item" id="punchcard-head31"></div>
+            <div class="grid-item" id="punchcard-head32"></div>
+            <div class="grid-item" id="punchcard-head33"></div>
+            <div class="grid-item" id="punchcard-head34"></div>
+            <div class="grid-item" id="punchcard-head35"></div>
+            <div class="grid-item" id="punchcard-head36"></div>
+            <!-- Row R -->
+            <div class="grid-item rowR" id="itemR1"><span>R</span></div>
+            <div class="grid-item rowR" id="itemR2"></div>
+            <div class="grid-item rowR" id="itemR3"></div>
+            <div class="grid-item rowR" id="itemR4"></div>
+            <div class="grid-item rowR" id="itemR5"></div>
+            <div class="grid-item rowR" id="itemR6"></div>
+            <div class="grid-item rowR" id="itemR7"></div>
+            <div class="grid-item rowR" id="itemR8"></div>
+            <div class="grid-item rowR" id="itemR9"></div>
+            <div class="grid-item rowR" id="itemR10"></div>
+            <div class="grid-item rowR" id="itemR11"></div>
+            <div class="grid-item rowR" id="itemR12"></div>
+            <div class="grid-item rowR" id="itemR13"></div>
+            <div class="grid-item rowR" id="itemR14"></div>
+            <div class="grid-item rowR" id="itemR15"></div>
+            <div class="grid-item rowR" id="itemR16"></div>
+            <div class="grid-item rowR" id="itemR17"></div>
+            <div class="grid-item rowR" id="itemR18"></div>
+            <div class="grid-item rowR" id="itemR19"></div>
+            <div class="grid-item rowR" id="itemR20"></div>
+            <div class="grid-item rowR" id="itemR21"></div>
+            <div class="grid-item rowR" id="itemR22"></div>
+            <div class="grid-item rowR" id="itemR23"></div>
+            <div class="grid-item rowR" id="itemR24"></div>
+            <div class="grid-item rowR" id="itemR25"></div>
+            <div class="grid-item rowR" id="itemR26"></div>
+            <div class="grid-item rowR" id="itemR27"></div>
+            <div class="grid-item rowR" id="itemR28"></div>
+            <div class="grid-item rowR" id="itemR29"></div>
+            <div class="grid-item rowR" id="itemR30"></div>
+            <div class="grid-item rowR" id="itemR31"></div>
+            <div class="grid-item rowR" id="itemR32"></div>
+            <div class="grid-item rowR" id="itemR33"></div>
+            <div class="grid-item rowR" id="itemR34"></div>
+            <div class="grid-item rowR" id="itemR35"></div>
+            <div class="grid-item rowR" id="itemR36"></div>
+            <!-- Row X -->
+            <div class="grid-item rowX" id="itemX1"><span>X</span></div>
+            <div class="grid-item rowX" id="itemX2"></div>
+            <div class="grid-item rowX" id="itemX3"></div>
+            <div class="grid-item rowX" id="itemX4"></div>
+            <div class="grid-item rowX" id="itemX5"></div>
+            <div class="grid-item rowX" id="itemX6"></div>
+            <div class="grid-item rowX" id="itemX7"></div>
+            <div class="grid-item rowX" id="itemX8"></div>
+            <div class="grid-item rowX" id="itemX9"></div>
+            <div class="grid-item rowX" id="itemX10"></div>
+            <div class="grid-item rowX" id="itemX11"></div>
+            <div class="grid-item rowX" id="itemX12"></div>
+            <div class="grid-item rowX" id="itemX13"></div>
+            <div class="grid-item rowX" id="itemX14"></div>
+            <div class="grid-item rowX" id="itemX15"></div>
+            <div class="grid-item rowX" id="itemX16"></div>
+            <div class="grid-item rowX" id="itemX17"></div>
+            <div class="grid-item rowX" id="itemX18"></div>
+            <div class="grid-item rowX" id="itemX19"></div>
+            <div class="grid-item rowX" id="itemX20"></div>
+            <div class="grid-item rowX" id="itemX21"></div>
+            <div class="grid-item rowX" id="itemX22"></div>
+            <div class="grid-item rowX" id="itemX23"></div>
+            <div class="grid-item rowX" id="itemX24"></div>
+            <div class="grid-item rowX" id="itemX25"></div>
+            <div class="grid-item rowX" id="itemX26"></div>
+            <div class="grid-item rowX" id="itemX27"></div>
+            <div class="grid-item rowX" id="itemX28"></div>
+            <div class="grid-item rowX" id="itemX29"></div>
+            <div class="grid-item rowX" id="itemX30"></div>
+            <div class="grid-item rowX" id="itemX31"></div>
+            <div class="grid-item rowX" id="itemX32"></div>
+            <div class="grid-item rowX" id="itemX33"></div>
+            <div class="grid-item rowX" id="itemX34"></div>
+            <div class="grid-item rowX" id="itemX35"></div>
+            <div class="grid-item rowX" id="itemX36"></div>
+            <!-- column 1 -->
+            <div class="grid-item" id="item1"><span>0</span></div>
+            <div class="grid-item" id="item2">1</div>
+            <div class="grid-item" id="item3">2</div>
+            <div class="grid-item" id="item4"><span>3</span></div>
+            <div class="grid-item" id="item5">4</div>
+            <div class="grid-item" id="item6">5</div>
+            <div class="grid-item" id="item7">6</div>
+            <div class="grid-item" id="item8">7</div>
+            <div class="grid-item" id="item9">8</div>
+            <div class="grid-item" id="item10">9</div>
+            <!-- column 2 -->
+            <div class="grid-item" id="item11">0</div>
+            <div class="grid-item" id="item12">1</div>
+            <div class="grid-item" id="item13">2</div>
+            <div class="grid-item" id="item14">3</div>
+            <div class="grid-item" id="item15">4</div>
+            <div class="grid-item" id="item16">5</div>
+            <div class="grid-item" id="item17">6</div>
+            <div class="grid-item" id="item18">7</div>
+            <div class="grid-item" id="item19">8</div>
+            <div class="grid-item" id="item20">9</div>
+            <!-- column 3 -->
+            <div class="grid-item" id="item21">0</div>
+            <div class="grid-item" id="item22">1</div>
+            <div class="grid-item" id="item23">2</div>
+            <div class="grid-item" id="item24">3</div>
+            <div class="grid-item" id="item25">4</div>
+            <div class="grid-item" id="item26">5</div>
+            <div class="grid-item" id="item27">6</div>
+            <div class="grid-item" id="item28">7</div>
+            <div class="grid-item" id="item29">8</div>
+            <div class="grid-item" id="item30">9</div>
+            <!-- column 4 -->
+            <div class="grid-item" id="item31">0</div>
+            <div class="grid-item" id="item32">1</div>
+            <div class="grid-item" id="item33">2</div>
+            <div class="grid-item" id="item34">3</div>
+            <div class="grid-item" id="item35">4</div>
+            <div class="grid-item" id="item36">5</div>
+            <div class="grid-item" id="item37">6</div>
+            <div class="grid-item" id="item38">7</div>
+            <div class="grid-item" id="item39">8</div>
+            <div class="grid-item" id="item40">9</div>
+            <!-- column 5 -->
+            <div class="grid-item" id="item41">0</div>
+            <div class="grid-item" id="item42">1</div>
+            <div class="grid-item" id="item43">2</div>
+            <div class="grid-item" id="item44">3</div>
+            <div class="grid-item" id="item45">4</div>
+            <div class="grid-item" id="item46">5</div>
+            <div class="grid-item" id="item47">6</div>
+            <div class="grid-item" id="item48">7</div>
+            <div class="grid-item" id="item49">8</div>
+            <div class="grid-item" id="item50">9</div>
+            <!-- column 6 -->
+            <div class="grid-item" id="item51">0</div>
+            <div class="grid-item" id="item52">1</div>
+            <div class="grid-item" id="item53">2</div>
+            <div class="grid-item" id="item54">3</div>
+            <div class="grid-item" id="item55">4</div>
+            <div class="grid-item" id="item56">5</div>
+            <div class="grid-item" id="item57">6</div>
+            <div class="grid-item" id="item58">7</div>
+            <div class="grid-item" id="item59">8</div>
+            <div class="grid-item" id="item60">9</div>
+            <!-- column 7 -->
+             <div class="grid-item" id="item61">0</div>
+             <div class="grid-item" id="item62">1</div>
+             <div class="grid-item" id="item63">2</div>
+             <div class="grid-item" id="item64">3</div>
+             <div class="grid-item" id="item65">4</div>
+             <div class="grid-item" id="item66">5</div>
+             <div class="grid-item" id="item67">6</div>
+             <div class="grid-item" id="item68">7</div>
+             <div class="grid-item" id="item69">8</div>
+             <div class="grid-item" id="item70">9</div>
+              <!-- column 8 -->
+              <div class="grid-item" id="item71">0</div>
+              <div class="grid-item" id="item72">1</div>
+              <div class="grid-item" id="item73">2</div>
+              <div class="grid-item" id="item74">3</div>
+              <div class="grid-item" id="item75">4</div>
+              <div class="grid-item" id="item76">5</div>
+              <div class="grid-item" id="item77">6</div>
+              <div class="grid-item" id="item78">7</div>
+              <div class="grid-item" id="item79">8</div>
+              <div class="grid-item" id="item80">9</div>
+              <!-- column 9 -->
+              <div class="grid-item" id="item81">0</div>
+              <div class="grid-item" id="item82">1</div>
+              <div class="grid-item" id="item83">2</div>
+              <div class="grid-item" id="item84">3</div>
+              <div class="grid-item" id="item85">4</div>
+              <div class="grid-item" id="item86">5</div>
+              <div class="grid-item" id="item87">6</div>
+              <div class="grid-item" id="item88">7</div>
+              <div class="grid-item" id="item89">8</div>
+              <div class="grid-item" id="item90">9</div>
+              <!-- column 10 -->
+              <div class="grid-item" id="item91">0</div>
+              <div class="grid-item" id="item92">1</div>
+              <div class="grid-item" id="item93">2</div>
+              <div class="grid-item" id="item94">3</div>
+              <div class="grid-item" id="item95">4</div>
+              <div class="grid-item" id="item96">5</div>
+              <div class="grid-item" id="item97">6</div>
+              <div class="grid-item" id="item98">7</div>
+              <div class="grid-item" id="item99">8</div>
+              <div class="grid-item" id="item100">9</div>
+              <!-- column 11 -->
+              <div class="grid-item" id="item101">0</div>
+              <div class="grid-item" id="item102">1</div>
+              <div class="grid-item" id="item103">2</div>
+              <div class="grid-item" id="item104">3</div>
+              <div class="grid-item" id="item105">4</div>
+              <div class="grid-item" id="item106">5</div>
+              <div class="grid-item" id="item107">6</div>
+              <div class="grid-item" id="item108">7</div>
+              <div class="grid-item" id="item109">8</div>
+              <div class="grid-item" id="item110">9</div>
+              <!-- column 12 -->
+              <div class="grid-item" id="item111">0</div>
+              <div class="grid-item" id="item112">1</div>
+              <div class="grid-item" id="item113">2</div>
+              <div class="grid-item" id="item114">3</div>
+              <div class="grid-item" id="item115">4</div>
+              <div class="grid-item" id="item116">5</div>
+              <div class="grid-item" id="item117">6</div>
+              <div class="grid-item" id="item118">7</div>
+              <div class="grid-item" id="item119">8</div>
+              <div class="grid-item" id="item120">9</div>
+              <!-- column 13 -->
+              <div class="grid-item" id="item121">0</div>
+              <div class="grid-item" id="item122">1</div>
+              <div class="grid-item" id="item123">2</div>
+              <div class="grid-item" id="item124">3</div>
+              <div class="grid-item" id="item125">4</div>
+              <div class="grid-item" id="item126">5</div>
+              <div class="grid-item" id="item127">6</div>
+              <div class="grid-item" id="item128">7</div>
+              <div class="grid-item" id="item129">8</div>
+              <div class="grid-item" id="item130">9</div>
+              <!-- column 14 -->
+              <div class="grid-item" id="item131">0</div>
+              <div class="grid-item" id="item132">1</div>
+              <div class="grid-item" id="item133">2</div>
+              <div class="grid-item" id="item134">3</div>
+              <div class="grid-item" id="item135">4</div>
+              <div class="grid-item" id="item136">5</div>
+              <div class="grid-item" id="item137">6</div>
+              <div class="grid-item" id="item138">7</div>
+              <div class="grid-item" id="item139">8</div>
+              <div class="grid-item" id="item140">9</div>
+              <!-- column 15 -->
+              <div class="grid-item" id="item141">0</div>
+              <div class="grid-item" id="item142">1</div>
+              <div class="grid-item" id="item143">2</div>
+              <div class="grid-item" id="item144">3</div>
+              <div class="grid-item" id="item145">4</div>
+              <div class="grid-item" id="item146">5</div>
+              <div class="grid-item" id="item147">6</div>
+              <div class="grid-item" id="item148">7</div>
+              <div class="grid-item" id="item149">8</div>
+              <div class="grid-item" id="item150">9</div>
+              <!-- column 16 -->
+              <div class="grid-item" id="item151"><span>0</span></div>
+              <div class="grid-item" id="item152">1</div>
+              <div class="grid-item" id="item153">2</div>
+              <div class="grid-item" id="item154">3</div>
+              <div class="grid-item" id="item155">4</div>
+              <div class="grid-item" id="item156">5</div>
+              <div class="grid-item" id="item157">6</div>
+              <div class="grid-item" id="item158">7</div>
+              <div class="grid-item" id="item159">8</div>
+              <div class="grid-item" id="item160">9</div>
+              <!-- column 17 -->
+              <div class="grid-item" id="item161">0</div>
+              <div class="grid-item" id="item162">1</div>
+              <div class="grid-item" id="item163">2</div>
+              <div class="grid-item" id="item164">3</div>
+              <div class="grid-item" id="item165">4</div>
+              <div class="grid-item" id="item166">5</div>
+              <div class="grid-item" id="item167">6</div>
+              <div class="grid-item" id="item168">7</div>
+              <div class="grid-item" id="item169">8</div>
+              <div class="grid-item" id="item170">9</div>
+              <!-- column 18 -->
+              <div class="grid-item" id="item171">0</div>
+              <div class="grid-item" id="item172">1</div>
+              <div class="grid-item" id="item173">2</div>
+              <div class="grid-item" id="item174">3</div>
+              <div class="grid-item" id="item175">4</div>
+              <div class="grid-item" id="item176">5</div>
+              <div class="grid-item" id="item177">6</div>
+              <div class="grid-item" id="item178">7</div>
+              <div class="grid-item" id="item179">8</div>
+              <div class="grid-item" id="item180">9</div>
+              <!-- column 19 -->
+              <div class="grid-item" id="item181">0</div>
+              <div class="grid-item" id="item182">1</div>
+              <div class="grid-item" id="item183">2</div>
+              <div class="grid-item" id="item184">3</div>
+              <div class="grid-item" id="item185">4</div>
+              <div class="grid-item" id="item186">5</div>
+              <div class="grid-item" id="item187">6</div>
+              <div class="grid-item" id="item188">7</div>
+              <div class="grid-item" id="item189">8</div>
+              <div class="grid-item" id="item190">9</div>
+              <!-- column 20 -->
+              <div class="grid-item" id="item191">0</div>
+              <div class="grid-item" id="item192">1</div>
+              <div class="grid-item" id="item193">2</div>
+              <div class="grid-item" id="item194">3</div>
+              <div class="grid-item" id="item195">4</div>
+              <div class="grid-item" id="item196">5</div>
+              <div class="grid-item" id="item197">6</div>
+              <div class="grid-item" id="item198">7</div>
+              <div class="grid-item" id="item199">8</div>
+              <div class="grid-item" id="item200">9</div>
+              <!-- column 21 -->
+              <div class="grid-item" id="item201">0</div>
+              <div class="grid-item" id="item202">1</div>
+              <div class="grid-item" id="item203">2</div>
+              <div class="grid-item" id="item204">3</div>
+              <div class="grid-item" id="item205">4</div>
+              <div class="grid-item" id="item206">5</div>
+              <div class="grid-item" id="item207">6</div>
+              <div class="grid-item" id="item208">7</div>
+              <div class="grid-item" id="item209">8</div>
+              <div class="grid-item" id="item210">9</div>
+              <!-- column 22 -->
+              <div class="grid-item" id="item211">0</div>
+              <div class="grid-item" id="item212">1</div>
+              <div class="grid-item" id="item213">2</div>
+              <div class="grid-item" id="item214">3</div>
+              <div class="grid-item" id="item215">4</div>
+              <div class="grid-item" id="item216">5</div>
+              <div class="grid-item" id="item217">6</div>
+              <div class="grid-item" id="item218">7</div>
+              <div class="grid-item" id="item219">8</div>
+              <div class="grid-item" id="item220">9</div>
+              <!-- column 23 -->
+              <div class="grid-item" id="item221">0</div>
+              <div class="grid-item" id="item222">1</div>
+              <div class="grid-item" id="item223">2</div>
+              <div class="grid-item" id="item224">3</div>
+              <div class="grid-item" id="item225">4</div>
+              <div class="grid-item" id="item226">5</div>
+              <div class="grid-item" id="item227">6</div>
+              <div class="grid-item" id="item228">7</div>
+              <div class="grid-item" id="item229">8</div>
+              <div class="grid-item" id="item230">9</div>
+              <!-- column 24 -->
+              <div class="grid-item" id="item231">0</div>
+              <div class="grid-item" id="item232">1</div>
+              <div class="grid-item" id="item233">2</div>
+              <div class="grid-item" id="item234">3</div>
+              <div class="grid-item" id="item235">4</div>
+              <div class="grid-item" id="item236">5</div>
+              <div class="grid-item" id="item237">6</div>
+              <div class="grid-item" id="item238">7</div>
+              <div class="grid-item" id="item239">8</div>
+              <div class="grid-item" id="item240">9</div>
+              <!-- column 25 -->
+              <div class="grid-item" id="item241">0</div>
+              <div class="grid-item" id="item242">1</div>
+              <div class="grid-item" id="item243">2</div>
+              <div class="grid-item" id="item244">3</div>
+              <div class="grid-item" id="item245">4</div>
+              <div class="grid-item" id="item246">5</div>
+              <div class="grid-item" id="item247">6</div>
+              <div class="grid-item" id="item248">7</div>
+              <div class="grid-item" id="item249">8</div>
+              <div class="grid-item" id="item250">9</div>
+              <!-- column 26 -->
+              <div class="grid-item" id="item251">0</div>
+              <div class="grid-item" id="item252">1</div>
+              <div class="grid-item" id="item253">2</div>
+              <div class="grid-item" id="item254">3</div>
+              <div class="grid-item" id="item255">4</div>
+              <div class="grid-item" id="item256">5</div>
+              <div class="grid-item" id="item257">6</div>
+              <div class="grid-item" id="item258">7</div>
+              <div class="grid-item" id="item259">8</div>
+              <div class="grid-item" id="item260">9</div>
+              <!-- column 27 -->
+              <div class="grid-item" id="item261">0</div>
+              <div class="grid-item" id="item262">1</div>
+              <div class="grid-item" id="item263">2</div>
+              <div class="grid-item" id="item264">3</div>
+              <div class="grid-item" id="item265">4</div>
+              <div class="grid-item" id="item266">5</div>
+              <div class="grid-item" id="item267">6</div>
+              <div class="grid-item" id="item268">7</div>
+              <div class="grid-item" id="item269">8</div>
+              <div class="grid-item" id="item270">9</div>
+              <!-- column 28 -->
+              <div class="grid-item" id="item271">0</div>
+              <div class="grid-item" id="item272">1</div>
+              <div class="grid-item" id="item273">2</div>
+              <div class="grid-item" id="item274">3</div>
+              <div class="grid-item" id="item275">4</div>
+              <div class="grid-item" id="item276">5</div>
+              <div class="grid-item" id="item277">6</div>
+              <div class="grid-item" id="item278">7</div>
+              <div class="grid-item" id="item279">8</div>
+              <div class="grid-item" id="item280">9</div>
+              <!-- column 29 -->
+              <div class="grid-item" id="item281">0</div>
+              <div class="grid-item" id="item282">1</div>
+              <div class="grid-item" id="item283">2</div>
+              <div class="grid-item" id="item284">3</div>
+              <div class="grid-item" id="item285">4</div>
+              <div class="grid-item" id="item286">5</div>
+              <div class="grid-item" id="item287">6</div>
+              <div class="grid-item" id="item288">7</div>
+              <div class="grid-item" id="item289">8</div>
+              <div class="grid-item" id="item290">9</div>
+              <!-- column 30 -->
+              <div class="grid-item" id="item291">0</div>
+              <div class="grid-item" id="item292">1</div>
+              <div class="grid-item" id="item293">2</div>
+              <div class="grid-item" id="item294">3</div>
+              <div class="grid-item" id="item295">4</div>
+              <div class="grid-item" id="item296">5</div>
+              <div class="grid-item" id="item297">6</div>
+              <div class="grid-item" id="item298">7</div>
+              <div class="grid-item" id="item299">8</div>
+              <div class="grid-item" id="item300">9</div>
+              <!-- column 31 -->
+              <div class="grid-item" id="item301">0</div>
+              <div class="grid-item" id="item302">1</div>
+              <div class="grid-item" id="item303">2</div>
+              <div class="grid-item" id="item304">3</div>
+              <div class="grid-item" id="item305">4</div>
+              <div class="grid-item" id="item306">5</div>
+              <div class="grid-item" id="item307">6</div>
+              <div class="grid-item" id="item308">7</div>
+              <div class="grid-item" id="item309">8</div>
+              <div class="grid-item" id="item310">9</div>
+              <!-- column 32 -->
+              <div class="grid-item" id="item311">0</div>
+              <div class="grid-item" id="item312">1</div>
+              <div class="grid-item" id="item313">2</div>
+              <div class="grid-item" id="item314">3</div>
+              <div class="grid-item" id="item315">4</div>
+              <div class="grid-item" id="item316">5</div>
+              <div class="grid-item" id="item317">6</div>
+              <div class="grid-item" id="item318">7</div>
+              <div class="grid-item" id="item319">8</div>
+              <div class="grid-item" id="item320">9</div>
+              <!-- column 33 -->
+              <div class="grid-item" id="item321">0</div>
+              <div class="grid-item" id="item322">1</div>
+              <div class="grid-item" id="item323">2</div>
+              <div class="grid-item" id="item324">3</div>
+              <div class="grid-item" id="item325">4</div>
+              <div class="grid-item" id="item326">5</div>
+              <div class="grid-item" id="item327">6</div>
+              <div class="grid-item" id="item328">7</div>
+              <div class="grid-item" id="item329">8</div>
+              <div class="grid-item" id="item330">9</div>
+              <!-- column 34 -->
+              <div class="grid-item" id="item331">0</div>
+              <div class="grid-item" id="item332">1</div>
+              <div class="grid-item" id="item333">2</div>
+              <div class="grid-item" id="item334">3</div>
+              <div class="grid-item" id="item335">4</div>
+              <div class="grid-item" id="item336">5</div>
+              <div class="grid-item" id="item337">6</div>
+              <div class="grid-item" id="item338">7</div>
+              <div class="grid-item" id="item339">8</div>
+              <div class="grid-item" id="item340">9</div>
+              <!-- column 35 -->
+              <div class="grid-item" id="item341">0</div>
+              <div class="grid-item" id="item342">1</div>
+              <div class="grid-item" id="item343">2</div>
+              <div class="grid-item" id="item344">3</div>
+              <div class="grid-item" id="item345">4</div>
+              <div class="grid-item" id="item346">5</div>
+              <div class="grid-item" id="item347">6</div>
+              <div class="grid-item" id="item348">7</div>
+              <div class="grid-item" id="item349">8</div>
+              <div class="grid-item" id="item350">9</div>
+              <!-- column 36 -->
+              <div class="grid-item" id="item351">0</div>
+              <div class="grid-item" id="item352">1</div>
+              <div class="grid-item" id="item353">2</div>
+              <div class="grid-item" id="item354">3</div>
+              <div class="grid-item" id="item355">4</div>
+              <div class="grid-item" id="item356">5</div>
+              <div class="grid-item" id="item357">6</div>
+              <div class="grid-item" id="item358">7</div>
+              <div class="grid-item" id="item359">8</div>
+              <div class="grid-item" id="item360">9</div>
+        </div>
+    </section>
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
