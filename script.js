@@ -337,7 +337,7 @@ $(document).ready(function() {
                     $('#item281, #item283, #item284, #item285, #item286, #item287, #item288, #item289, #item290').css('background-color', 'white');
                     $('#item292, #item293, #item294, #item295, #item296, #item297, #item298, #item299, #item300').css('background-color', 'white');
                      $('#item282, #item291').css('background-color', 'black');
-                     $('#punchcard-head29').text('0');
+                     $('#punchcard-head29').text('1');
                      $('#punchcard-head30').text('0');
                     break;
                 case 11:
@@ -352,7 +352,7 @@ $(document).ready(function() {
                     $('#item291, #item292, #item294, #item295, #item296, #item297, #item298, #item299, #item300').css('background-color', 'white');
                      $('#item282, #item293').css('background-color', 'black');
                      $('#punchcard-head29').text('1');
-                     $('#punchcard-head30').text('3');
+                     $('#punchcard-head30').text('2');
                     break;
         }
 
